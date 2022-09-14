@@ -1,0 +1,29 @@
+<test-run id="2" duration="4.443989" testcasecount="1" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2022-09-14T 09:13:42Z" end-time="2022-09-14T 09:13:48Z">
+  <test-suite type="Assembly" name="uk.co.david.brittain.nfocusspecflow.dll" fullname="C:\Users\DavidBrittain\source\repos\uk.co.david.brittain.nfocusspecflow\uk.co.david.brittain.nfocusspecflow\bin\Debug\net6.0\uk.co.david.brittain.nfocusspecflow.dll" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2022-09-14T 09:13:43Z" end-time="2022-09-14T 09:13:48Z" duration="4.443989">
+    <test-suite type="TestSuite" name="uk" fullname="uk" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2022-09-14T 09:13:43Z" end-time="2022-09-14T 09:13:48Z" duration="4.443989">
+      <test-suite type="TestSuite" name="co" fullname="uk.co" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2022-09-14T 09:13:43Z" end-time="2022-09-14T 09:13:48Z" duration="4.443989">
+        <test-suite type="TestSuite" name="david" fullname="uk.co.david" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2022-09-14T 09:13:43Z" end-time="2022-09-14T 09:13:48Z" duration="4.443989">
+          <test-suite type="TestSuite" name="brittain" fullname="uk.co.david.brittain" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2022-09-14T 09:13:43Z" end-time="2022-09-14T 09:13:48Z" duration="4.443989">
+            <test-suite type="TestSuite" name="nfocusspecflow" fullname="uk.co.david.brittain.nfocusspecflow" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2022-09-14T 09:13:43Z" end-time="2022-09-14T 09:13:48Z" duration="4.443989">
+              <test-suite type="TestSuite" name="Features" fullname="uk.co.david.brittain.nfocusspecflow.Features" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2022-09-14T 09:13:43Z" end-time="2022-09-14T 09:13:48Z" duration="4.443989">
+                <test-suite type="TestFixture" name="AltFeatureFeature" fullname="uk.co.david.brittain.nfocusspecflow.Features.AltFeatureFeature" classname="uk.co.david.brittain.nfocusspecflow.Features.AltFeatureFeature" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2022-09-14T 09:13:43Z" end-time="2022-09-14T 09:13:48Z" duration="4.443989">
+                  <test-case name="_2NdScenario" fullname="uk.co.david.brittain.nfocusspecflow.Features.AltFeatureFeature._2NdScenario" methodname="_2NdScenario" classname="AltFeatureFeature" result="Passed" start-time="2022-09-14T 09:13:43Z" end-time="2022-09-14T 09:13:48Z" duration="4.443989" asserts="0" seed="677327403">
+                    <properties>
+                      <property name="Category" value="alt" />
+                      <property name="Category" value="Golden" />
+                    </properties>
+                    <output><![CDATA[Given Google is open
+-> done: GoogleStepDefinitions.GivenIAmOnTheGoogleHomepage() (2.8s)
+
+]]></output>
+                  </test-case>
+                </test-suite>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>

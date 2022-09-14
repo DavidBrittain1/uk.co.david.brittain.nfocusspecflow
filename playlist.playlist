@@ -1,0 +1,30 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="uk.co.david.brittain.nfocusspecflow" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="uk.co.david.brittain.nfocusspecflow.Features" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="GoogleFeature" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="uk.co.david.brittain.nfocusspecflow.Features.GoogleFeature.SearchGoogleForDavidBrit" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="SearchGoogleForDavidBrit" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
