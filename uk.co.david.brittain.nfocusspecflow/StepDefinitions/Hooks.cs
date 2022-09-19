@@ -5,7 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NUnit.Framework;
 
+//[assembly: Parallelizable(ParallelScope.Fixtures)] //Can only parallelise Features
+//[assembly: LevelOfParallelism(4)] //Worker thread i.e. max amount of Features to run in Parallel
 
 namespace uk.co.david.brittain.nfocusspecflow.StepDefinitions
 {
@@ -22,14 +25,14 @@ namespace uk.co.david.brittain.nfocusspecflow.StepDefinitions
         }
 
 
-        [Before]
+        [Before("@GUI")]
         public void Setup()
         {
             driver = new ChromeDriver();
             _scenarioContext["mydriver"] = driver;
         }
 
-        [After]
+        [After("@GUI")]
         public void TearDown()
         {
             driver.Quit();

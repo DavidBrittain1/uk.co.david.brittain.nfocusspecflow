@@ -20,10 +20,10 @@ namespace uk.co.david.brittain.nfocusspecflow.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.9.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Google")]
+    [NUnit.Framework.DescriptionAttribute("Google2")]
     [NUnit.Framework.CategoryAttribute("Golden")]
     [NUnit.Framework.CategoryAttribute("GUI")]
-    public partial class GoogleFeature
+    public partial class Google2Feature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
@@ -32,14 +32,14 @@ namespace uk.co.david.brittain.nfocusspecflow.Features
                 "Golden",
                 "GUI"};
         
-#line 1 "Google.feature"
+#line 1 "Google - Copy.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Google", "A short summary of the feature", ProgrammingLanguage.CSharp, featureTags);
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Google2", "A short summary of the feature", ProgrammingLanguage.CSharp, featureTags);
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -171,16 +171,16 @@ this.ScenarioInitialize(scenarioInfo);
 #line 25
  testRunner.When("I search for \'DavidBrit\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                             "url"});
-                table2.AddRow(new string[] {
+                table1.AddRow(new string[] {
                             "DavidBrit - YouTube\nhttps://www.youtube.com > channel\n(Tutorial) Setting up a con" +
                                 "troller for a game/Add a non-steam game to your steam library · DavidBrit. David" +
                                 "Brit. 30 views2 years ago."});
-                table2.AddRow(new string[] {
+                table1.AddRow(new string[] {
                             "davidbrit - Twitch https://www.twitch.tv › davidbrit"});
 #line 26
- testRunner.Then("I see in the results", ((string)(null)), table2, "Then ");
+ testRunner.Then("I see in the results", ((string)(null)), table1, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

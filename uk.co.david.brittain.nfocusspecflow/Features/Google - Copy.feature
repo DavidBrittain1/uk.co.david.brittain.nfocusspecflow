@@ -1,5 +1,5 @@
 ﻿@Golden @GUI
-Feature: Google
+Feature: Google2
 
 A short summary of the feature
 
